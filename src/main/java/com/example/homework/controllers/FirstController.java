@@ -19,7 +19,7 @@ public class FirstController {
     */
     @GetMapping("/info")
     public String name (){
-        return "Имя ученика"+" Название вашего проекта " + "Дата создания проекта " + "Описание проекта в свободной форме"+ " game";
+        return "Имя ученика"+" Название вашего проекта " + "Дата создания проекта " + "Описание проекта в свободной форме";
     }
    /* @GetMapping("/dateofproject")
     public String dateofproject(){
